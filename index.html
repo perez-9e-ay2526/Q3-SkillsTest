@@ -15,11 +15,11 @@
 
 <body>
     
-    <div class="container bg-white mt-5">
+    <div class="card container bg-white mt-5">
 
-        <div class="p-3 text-white bg-info header">
+        <div class="p-3 text-white bg-info card-header border-0 mb-0">
             
-            <h2 class="text-center">CINE SOPHIA TICKETS</span></h2>
+            <span><h2 class="mx-auto border-0 text-center">CINE SOPHIA TICKETS 🎬</h2></span>
 
         </div>
 
@@ -32,13 +32,13 @@
 
             <h5 class="text-secondary"><b>Ticket Selection</b></h5>
 
-            <label>QUANTITY:</label>
-            <input type="number" class="form-control" value="0" min="0" id="quanNum"><br><br>
+            <label>QUANTITY (PHP 250 each):</label>
+            <input type="number" class="form-control" min="0" id="quanNum"><br><br>
 
             <h5 class="text-secondary"><b>Payment Details</b></h5>
 
             <label>SUBTOTAL:</label>
-            <input type="number" class="form-control" value="0.00" readonly><br>
+            <input type="number" class="form-control" value="0.00" id="final_subtotal" readonly><br>
 
             <label>ADMIN FEE:</label>
             <input type="number" class="form-control" value="50.00" readonly><br>
